@@ -70,7 +70,7 @@ function AboutPage() {
 
        
 
-<div className="grid grid-cols-6  pt-6 relative">
+<div className="grid grid-cols-6  pt-6 relative pb-10">
           <BsChevronLeft
             onClick={handlePrevClick}
             className="absolute left-0 top-1/2 transform -translate-y-1/2 cursor-pointer text-gray-900 text-2xl"
