@@ -43,7 +43,7 @@ function AboutPage() {
       };
 
   return (
-    <div className="mt-10" >
+    <div className="mt-2" >
         <Navbar />
         <div className="ml-60 mr-40 mt-6">
 

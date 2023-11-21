@@ -93,7 +93,7 @@ function ChallengePage() {
 
   return (
     <div>
-         <div className="pt-6 pb-10 ">
+         <div className="pt-4 pb-10 ">
          <Navbar />
          </div>
     <div className="pb-12">
