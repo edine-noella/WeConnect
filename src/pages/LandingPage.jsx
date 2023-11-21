@@ -1,7 +1,7 @@
 
 import Sidebar from "../components/Sidebar"
 import picture from "../assets/picture.png"
-import Navbar from "../components/navbar"
+import Navbar from "../components/Navbar"
 
 function LandingPage() {
   return (

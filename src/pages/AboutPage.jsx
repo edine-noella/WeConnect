@@ -4,7 +4,7 @@ import gloria from '../assets/gloria.jpeg';
 import bosire from '../assets/bosire.webp';
 import divine from '../assets/divine.jpeg';
 import chloe from '../assets/chloe.png';
-import Navbar from "../components/navbar"
+import Navbar from "../components/Navbar"
 import Footer from '../components/Footer';
 import { useState } from 'react';
 import { BsChevronLeft, BsChevronRight } from 'react-icons/bs'; 

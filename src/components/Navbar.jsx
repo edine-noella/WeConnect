@@ -1,7 +1,7 @@
 import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 
-function navbar() {
+function Navbar() {
   return (
     <div className='flex justify-between items-center'>
       <div className='flex items-center ml-56'>
@@ -25,4 +25,4 @@ function navbar() {
   );
 }
 
-export default navbar;
+export default Navbar;

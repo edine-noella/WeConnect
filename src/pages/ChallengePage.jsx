@@ -1,5 +1,5 @@
 
-import Navbar from "../components/navbar"
+import Navbar from "../components/Navbar"
 import {  BsYoutube, BsInstagram , BsFilePdfFill, BsLink } from 'react-icons/bs'
 import Footer from "../components/Footer"
 import { useState } from 'react'
