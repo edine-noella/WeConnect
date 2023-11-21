@@ -78,7 +78,7 @@ function AboutPage() {
           {teamMembers.map((member, index) => (
             <div
               key={index}
-              className={`justify-center items-center text-center h-52 w-44 relative ${
+              className={`justify-center items-center text-center h-48 w-40 relative ${
                 index === highlightedIndex ? 'highlighted' : 'darkened'
               }`}
               style={{

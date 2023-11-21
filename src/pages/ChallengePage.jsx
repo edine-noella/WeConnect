@@ -14,12 +14,12 @@ function ChallengeCard({ number, title, content }) {
         
     <div className=" mb-12">
     <div
-      className={`flex ml-60 w-8/12 pt-20 card ${isHovered ? 'hovered' : ''}`}
+      className={`flex ml-60 w-8/12 pt-5 card ${isHovered ? 'hovered' : ''}`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
       <div className="flex-none w-24 mr-12 pl-10">
-        <h1 className="text-6xl text-gray-500">{number}</h1>
+        <h1 className="text-4xl text-gray-500">{number}</h1>
       </div>
       <div className="flex-initial w-9/12">
         <h1 className="font-bold text-gray-800 text-xl pb-4 custom-montserrat-font">
@@ -28,18 +28,18 @@ function ChallengeCard({ number, title, content }) {
         <p className="custom-montserrat-font text-md text-gray-600">{content}</p>
       
 
-      <div className="flex pb-5 pt-4">
+      <div className="flex pb-4 pt-4">
                   <div className="flex-initial ">
-                  <a href="https://www.youtube.com/@LuminaryHub-wo3rx/videos" rel="social media" >  <BsYoutube className=" text-4xl text-gray-900 bg-white "/></a>
+                  <a href="https://www.youtube.com/@LuminaryHub-wo3rx/videos" rel="social media" >  <BsYoutube className=" text-2xl text-gray-900 bg-white "/></a>
                   </div>
                   <div className="flex-initial ">
-                    <a href="https://www.instagram.com/alu_luminaryhub/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" rel="social media" > <BsInstagram className=" text-4xl text-gray-900 bg-white pl-2 "/></a>
+                    <a href="https://www.instagram.com/alu_luminaryhub/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" rel="social media" > <BsInstagram className=" text-2xl text-gray-900 bg-white pl-2 "/></a>
                   </div>
                   <div className="flex-initial ">
-                  <a href="https://www.instagram.com/alu_luminaryhub/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" rel="social media" > <BsFilePdfFill className=" text-4xl text-gray-900 bg-white pl-2 "/></a>
+                  <a href="https://www.instagram.com/alu_luminaryhub/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" rel="social media" > <BsFilePdfFill className=" text-2xl text-gray-900 bg-white pl-2 "/></a>
                   </div>
                   <div className="flex-initial ">
-                    <a href="https://www.instagram.com/alu_luminaryhub/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" rel="social media" > <BsLink className=" text-4xl text-gray-900 bg-white pl-2 "/></a>
+                    <a href="https://www.instagram.com/alu_luminaryhub/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" rel="social media" > <BsLink className=" text-2xl text-gray-900 bg-white pl-2 "/></a>
                   </div>
                  
                   </div>
