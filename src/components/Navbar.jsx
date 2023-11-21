@@ -9,15 +9,15 @@ function Navbar() {
       </div>
 
       <div className='flex mr-52'>
-        <div className='px-12 py-10 text-lg'>
+        <div className='px-12 py-6 text-md'>
           <Link to='/home' className='nav-link text-primary'>Home</Link>
         </div>
 
-        <div className='px-12 py-10 text-lg'>
+        <div className='px-12 py-6 text-md'>
           <Link to='/about' className='nav-link'>About</Link>
         </div>
 
-        <div className='px-12 py-10 text-lg'>
+        <div className='px-12 py-6 text-md'>
           <Link to='/challenge' className='nav-link'>Challenge</Link>
         </div>
       </div>
