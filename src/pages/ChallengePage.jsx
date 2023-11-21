@@ -22,10 +22,10 @@ function ChallengeCard({ number, title, content }) {
         <h1 className="text-6xl text-gray-500">{number}</h1>
       </div>
       <div className="flex-initial w-9/12">
-        <h1 className="font-bold text-gray-800 text-2xl pb-4 custom-montserrat-font">
+        <h1 className="font-bold text-gray-800 text-xl pb-4 custom-montserrat-font">
           {title}
         </h1>
-        <p className="custom-montserrat-font text-lg text-gray-600">{content}</p>
+        <p className="custom-montserrat-font text-md text-gray-600">{content}</p>
       
 
       <div className="flex pb-5 pt-4">

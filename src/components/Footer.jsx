@@ -2,7 +2,7 @@
 const Footer = () => {
   return (
     <footer
-      className="text-center text-xl text-gray-500"
+      className="text-center text-md text-gray-500"
       style={{
         position: 'fixed',
         bottom: 0,
