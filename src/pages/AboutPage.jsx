@@ -16,12 +16,12 @@ function AboutPage() {
     const [highlightedIndex, setHighlightedIndex] = useState(2);
 
     const teamMembers = [
-      { image: marie, name: 'Marie' },
-      { image: gloria, name: 'Gloria' },
-      { image: edine, name: 'Edine' },      
-      { image: divine, name: 'Divine' },
-      { image: bosire, name: 'Bosire' },
-      { image: chloe, name: 'Chloe' },
+      { image: marie, name: 'Marie' , description: 'Social Media Manager'},
+      { image: gloria, name: 'Gloria', description: 'Team Lead' },
+      { image: edine, name: 'Edine', description: ' Software Developer' },      
+      { image: divine, name: 'Divine' , description: 'Software Designer'},
+      { image: bosire, name: 'Bosire' , description: 'Customer Relations Manager'},
+      { image: chloe, name: 'Chloe', description: 'Content Creator' },
     ];
   
     const handleNextClick = () => {
@@ -43,7 +43,7 @@ function AboutPage() {
       };
 
   return (
-    <div className="mt-2 pb-4" >
+    <div className="mt-2 pb-12" >
         <Navbar />
         <div className="ml-60 mr-40 mt-6">
 
@@ -88,7 +88,8 @@ function AboutPage() {
               }}
             >
               <img src={member.image} alt={`Person ${index}`} className="rounded-md pb-2 h-48 w-42" />
-              <p1 className="text-gray-600 text-lg">{member.name}</p1>
+              <p1 className="text-gray-600 text-lg font-bold">{member.name}</p1><br/>
+              <p2 className="text-gray-600 text-lg">{member.description}</p2>
             </div>
           ))}
           <BsChevronRight
