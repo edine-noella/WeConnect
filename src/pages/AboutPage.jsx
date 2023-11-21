@@ -43,7 +43,7 @@ function AboutPage() {
       };
 
   return (
-    <div className="mt-2" >
+    <div className="mt-2 pb-4" >
         <Navbar />
         <div className="ml-60 mr-40 mt-6">
 
@@ -98,8 +98,7 @@ function AboutPage() {
         </div>
 
         </div>
-        
-        {/* <Footer /> */}
+     
     </div>
   )
 }
